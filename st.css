@@ -1,0 +1,112 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#one{
+    float: left;
+    font-weight: bolder;
+    font-size: 25px;
+    color: cadetblue;
+}
+#two{
+    color: wheat;
+    font-style: oblique;
+    font-size: 40px;
+}
+.nbar {
+    background-color: rgb(19, 20, 73);
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+.nbar li {
+    float: right;
+    list-style: none;
+    margin: 25px 10px 10px 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    
+    
+}
+
+.nbar ul {
+    overflow: auto;
+}
+
+.nbar li a {
+    padding: 1px 1px;
+    
+    text-decoration: none;
+    color: beige;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.nbar li a:hover {
+    background-color: rgb(146, 228, 53);
+    transition: 1s;
+    margin: 10px;
+    border-radius: 30px;
+}      
+
+img:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    
+}
+
+.me {
+    position: absolute;
+    top: 60%;
+    left: 15%;   /* Set the left position to 30% */
+    transform: translateY(-25%);
+    text-align: left;
+    /* Align text to the left within the div */
+     font-weight: bold;
+     font-size: 20px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image: url(/images.jpeg);
+    background-size: 100%;
+
+}
+
+.image{
+    position: absolute;
+    top: 200px;
+    right: 250px;
+    bottom: 180px;
+   
+}
+img{
+    border-radius: 50%;
+    border-color: bisque;
+    background: none;
+}
+
+.favcon{
+    height: 100vh;
+    position: absolute;
+    line-height: 900px;
+    left: 220px;
+}
+a i {
+   font-size: 50px;
+   padding: 5px;
+   border-radius: 50px;
+   margin: 15px;
+   box-shadow: 40px rgb(163, 114, 40);
+}
+.favcon i:hover{
+   background-color: rgb(135, 199, 194);
+   border-radius: 20px;
+    transition: 1s;
+    margin: 5px;
+    
+}
+
+    
