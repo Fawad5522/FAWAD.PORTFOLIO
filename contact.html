@@ -6,7 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <style>
+      p{
+        color: white;
+      }
+      a{
+        color:snow;
+      }
+      * {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+      }
+
+      form {
+          padding: 10px;
+          max-width: 900px;
+          margin-left: 20%;
+          background-color: #719CD3;
+      }
+
+      body {
+          background-color: rgb(68, 125, 240);
+          text-align: center;
+          margin-top: 100px;
+      }
+
+      #top {
+          font-family: Poppins;
+          font-weight: 400;
+          font-style: normal;
+          font-size: 18px;
+      }
+
+      h1 {
+          background-color: rgb(24, 47, 56);
+          color: white;
+      }
+  </style>
+  </head>
 <body>
       <address>
         <h6><b>Creator Contact Details:</b></h6>
@@ -15,5 +53,27 @@
        <p>Phone# :
        <a href="tel:03326085485"><i class="fa fa-phone"></i> 03326085485</a></p>
       </address>
+ <br><br>
+
+      
+    <form>
+      <h1 class="top">Contact Form</h1> <br>
+      <label for="name">Name</label>
+      <input type="text" name="name" placeholder="First Name">
+      <input type="text" name="name" placeholder="Last Name"> <br><br>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" required placeholder=".....@gmail.com"> <br><br>
+
+      <label for="sub1">Subject </label>
+      <input type="text" name="sub1" placeholder="Your Subject"> <br><br>
+
+      <label for="message">Message</label>
+      <textarea name="message" id="message" cols="30" rows="10" placeholder="Anything Else "></textarea>
+
+  
+ <br><br>
+      <button type="submit" class="regbtn">Submit</button>
+  </form>
 </body>
 </html>
